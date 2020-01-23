@@ -8,3 +8,27 @@ li:first-child {
 li:last-child {
     background-color: forestgreen;
 }
+
+li:nth-child(even) {
+    background: blue;
+    color: white;
+  }
+
+  /* Selects the second <li> element in a list */
+li:nth-child(2) { 
+    color: lime;
+  }
+  
+  /* Selects every fourth element
+     among any group of siblings */
+  :nth-child(4n) {
+    color: lime;
+  }
+
+  /* first child is 3 then every 2nd after that */
+  li:nth-child(2n+3) {
+    
+    background-color: green;
+
+
+  }
