@@ -1,0 +1,21 @@
+/* The > combinator targets a direct child of an element */
+
+form > a {
+    font-size: .7em
+}
+
+/* The + combinator targets an element's immediate sibling */
+
+.btn + .btn{
+
+    margin-left: 20px;
+}
+
+/* The ~ combinator targets all the specified siblings that follow an element */
+
+h1 ~ label{
+    background:tomato;
+    color: white;
+    padding: 5px;
+
+}
