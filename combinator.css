@@ -4,12 +4,54 @@ form > a {
     font-size: .7em
 }
 
+/* EXAMPLE
+span {
+    background-color: white;
+  }
+  
+  div > span {
+    background-color: DodgerBlue;
+  }
+
+  <div>
+  <span>Span #1, in the div.
+    <span>Span #2, in the span that's in the div.</span>
+  </span>
+</div>
+<span>Span #3, not in the div at all.</span>
+
+*** Span #1, in the div. **** Span #2, in the span that's in the div.
+Span #3, not in the div at all.
+
+*/
+
+
+
 /* The + combinator targets an element's immediate sibling */
 
 .btn + .btn{
 
     margin-left: 20px;
 }
+
+/* EXAMPLE
+li:first-of-type + li {
+  color: red;
+}
+
+<ul>
+  <li>One</li>
+  <li>Two!</li>
+  <li>Three</li>
+</ul>
+
+One
+*** Two! ***
+Three
+
+/*
+
+
 
 /* The ~ combinator targets all the specified siblings that follow an element */
 
@@ -19,3 +61,26 @@ h1 ~ label{
     padding: 5px;
 
 }
+
+/* EXAMPLE
+https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator
+
+
+lp ~ span {
+  color: red;
+}
+
+<span>This is not red.</span>
+<p>Here is a paragraph.</p>
+<code>Here is some code.</code>
+<span>And here is a red span!</span>
+<code>More code...</code>
+<span>And this is a red span!</span>
+
+This is not red.
+Here is a paragraph.
+
+Here is some code. And here is a red span! More code... And this is a red span!
+
+*/
+
