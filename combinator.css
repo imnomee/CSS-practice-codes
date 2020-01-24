@@ -1,4 +1,6 @@
-/* The > combinator targets a direct child of an element */
+/* The > combinator targets a direct child of an element: PARENT > CHILDREN 
+https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator
+*/
 
 form > a {
     font-size: .7em
@@ -27,7 +29,9 @@ Span #3, not in the div at all.
 
 
 
-/* The + combinator targets an element's immediate sibling */
+/* The + combinator targets an element's immediate sibling: TWO SIBLINGS TOGETHER 
+https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator
+*/
 
 .btn + .btn{
 
@@ -53,7 +57,9 @@ Three
 
 
 
-/* The ~ combinator targets all the specified siblings that follow an element */
+/* The ~ combinator targets all the specified siblings that follow an element: PARENT ~ CHILDREN & GRAND CHILDREN & SO ON
+https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator
+*/
 
 h1 ~ label{
     background:tomato;
