@@ -1,0 +1,32 @@
+
+[class] {
+    padding: 24px 20px;
+    background-color: ivory;
+  }
+  
+  [class="form-contact"] {
+    padding: 24px 20px;
+    background-color: ivory;
+  }
+  
+  form[class="form-contact"] {
+    padding: 24px 20px;
+    background-color: ivory;
+    
+  }
+  /*
+  
+  div[id="container"]{
+    margin: auto;
+    max-width: 500px;
+  }
+  */
+  
+  input[type="text"] {
+    background-color: #fbfee6;
+  }
+  
+  
+  input[placeholder] {
+    background-color: #ffbbff;
+  }
